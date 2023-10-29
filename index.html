@@ -2,29 +2,42 @@
 <html>
   <head>  
 		<title> ViSual Studio Code </title>
+    <link rel="stylesheet" href="styles.css">
     </head>
     
     <body>
         <header>
-            <nav>
+            <nav class="navigateur">
+              
                 <ul>
+                  <li class="nav"> 
                     <a href="#home">Home</a>
+                  </li>
+                  <li class ="nav">
                     <a href="#about">About</a>
-                    <a href="#work">Work</a>
-                    <a href="#resume">Resume</a>
-                    <a href="#contact">Contact</a>
+                  </li>
+                  <li class="nav">
+                    <a href="#work" class="navwork">Work</a>
+                  </li>
+                  <li class="nav">
+                    <a href="#resume" class="navresume">Resume</a>
+                  </li>
+                  <li nav="nav">
+
+                  <a href="#contact" class="navContact"</a>
+                  </li>
                 </ul>
         <nav>
         </header>
       <img src="assets/image1.png"alt="logo1" width="300" height="200"><br>
 
       <!--Section home-->
-      <section id="home">
+      <section class="home">
         <h1>Welcome to the editor VS Code</h1>
         <p>Visual Studio Code is an extensible code editor developed by Microsoft for Windows, Linux and macOS.</p>
       </section>
       <!--section about-->
-      <section id="about">
+      <section class="about">
         <h2>About</h2>
         <p>Some information about VSCODE:</p>
         <ul>
@@ -47,7 +60,7 @@
 
         </ul>
         <h3>Notes</h3>
-        <table border="2">
+        <table border="2" class="tab">
             <tr>
                 <th>Code-OSS</th>
                 <th>VS Code</th>
@@ -65,7 +78,7 @@
 
       </section>
 <!--work section-->
-<section id="work">
+<section class="work">
     <h2>Work</h2>
     <p>To get started with VSCode, you can download it from the official Visual Studio Code website, install it on your system, and then explore the numerous extensions and features available to customize your development environment according to your specific needs.</p>
     <a href="https://code.visualstudio.com/download/">click to install</a>
@@ -84,7 +97,7 @@
 
 </section>
 <!--sction resume-->
-<section id="resume">
+<section class="resume">
   <h2>Resume</h2>
   <p>Here is the important information about VS CODE</p>
   <ul> 
@@ -108,7 +121,7 @@
   </ul>
 </section>
 <!--contact section-->
-<section id ="contact">
+<section class ="contact">
   <h2>Contact</h2>
   <p>For more information</p>
   <form>
